@@ -1,6 +1,8 @@
 # Bayesian
 A collection of projects using Bayesian statistics
 
+## If this repository helps you in anyway, show your love :heart: by putting a :star: on this project :v:
+
 ## 1. Markov Chain Monte Carlo (MCMC)
 
 The fundamental objective of Bayesian data analysis is to determine the posterior distribution
