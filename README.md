@@ -1,7 +1,7 @@
 # Bayesian
 A collection of projects using Bayesian statistics
 
-## Markov Chain Monte Carlo (MCMC)
+## 1. Markov Chain Monte Carlo (MCMC)
 
 The fundamental objective of Bayesian data analysis is to determine the posterior distribution
 
@@ -17,7 +17,7 @@ Here,
 
 We will use the toy example of estimating the bias of a coin given a sample consisting of n tosses to illustrate a few of the approaches.
 
-## Analytical solution 
+### Analytical solution 
 
 If we use a beta distribution as the prior, then the posterior distribution has a closed form solution. This is shown in the example below. Some general points:
 
