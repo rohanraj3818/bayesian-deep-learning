@@ -1,5 +1,5 @@
-# Bayesian
-A collection of projects using Bayesian machine learning
+# Bayesian Deep Learning
+A collection of projects using Bayesian deep learning
 
 ## If this repository helps you in anyway, show your love :heart: by putting a :star: on this project :v:
 
