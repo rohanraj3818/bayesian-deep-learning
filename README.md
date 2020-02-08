@@ -36,3 +36,12 @@ Encoder: in the neural net world, the encoder is a neural network that outputs a
 Decoder: in deep learning, the decoder is a neural net that learns to reconstruct the data xx given a representation zz. In terms of probability models, the likelihood of the data xx given latent variables zz is parametrized by a generative network. The generative network outputs parameters to the likelihood distribution p(x \mid z)p(x∣z).
 
 Inference: in neural nets, inference usually means prediction of latent representations given new, never-before-seen datapoints. In probability models, inference refers to inferring the values of latent variables given observed data.
+
+VAE are built using the following six steps:
+
+- An input image is passed through an encoder network.
+- The encoder outputs parameters of a distribution Q(z|x).
+- A latent vector z is sampled from Q(z|x). If the encoder learned to do its job well, most chances are z will contain the information describing x.
+- The decoder decodes z into an image.
+- Reconstruction error: the output should be similar to the input.
+- Q(z|x) should be similar to the prior (multivariate standard Gaussian).
