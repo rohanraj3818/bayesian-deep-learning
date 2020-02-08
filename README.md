@@ -1,5 +1,5 @@
 # Bayesian
-A collection of projects using Bayesian statistics
+A collection of projects using Bayesian machine learning
 
 ## If this repository helps you in anyway, show your love :heart: by putting a :star: on this project :v:
 
