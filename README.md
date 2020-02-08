@@ -45,3 +45,12 @@ VAE are built using the following six steps:
 - The decoder decodes z into an image.
 - Reconstruction error: the output should be similar to the input.
 - Q(z|x) should be similar to the prior (multivariate standard Gaussian).
+
+@misc{Abhinav:2020,
+  Author = {Abhinav Sagar},
+  Title = {Bayesian Deep Learning},
+  Year = {2020},
+  Publisher = {GitHub},
+  Journal = {GitHub repository},
+  Howpublished = {\url{https://github.com/abhinavsagar/bayesian-deep-learning}}
+}
