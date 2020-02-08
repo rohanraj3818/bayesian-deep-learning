@@ -46,6 +46,7 @@ VAE are built using the following six steps:
 - Reconstruction error: the output should be similar to the input.
 - Q(z|x) should be similar to the prior (multivariate standard Gaussian).
 
+```
 @misc{Abhinav:2020,
   Author = {Abhinav Sagar},
   Title = {Bayesian Deep Learning},
@@ -54,3 +55,4 @@ VAE are built using the following six steps:
   Journal = {GitHub repository},
   Howpublished = {\url{https://github.com/abhinavsagar/bayesian-deep-learning}}
 }
+```
