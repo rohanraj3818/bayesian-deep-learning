@@ -67,6 +67,12 @@ Local Reparameterization Trick
 
 Let us once again remember that we want to implement the above procedure in a neural network, and therefore must calculate derivatives of the parameters being learnt, i.e. for us, derivatives of distributions. For doing so, the local reparameterisation trick is deployed which moves the parameters to be learnt, namely the mean µ and the standard deviation σ in case of a Gaussian distribution, out of the distribution function for any weight w. We define that ϵ as a sample of a standard Gaussian distribution, multiply it with the standard deviation σ and add the mean µ. Doing so, we have these two parameters of interest incorporated in every weight value and can both calculate the derivative of it and re-write it into a probability distribution.
 
+![](images/bbb1.png)
+
+![](images/bbb2.png)
+
+![](images/bbb3.png)
+
 ## Citing
 
 ```
