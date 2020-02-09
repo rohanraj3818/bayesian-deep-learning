@@ -59,6 +59,14 @@ VAE are built using the following six steps:
 
 ![](images/vae4.png)
 
+## 3. Bayes by BackProp
+
+Bayes by Backprop that will most likely be seen as a break-through in probabilistic deep learning in some time. It symbolises a practical solution on how the issue of the uncertainity can be adequately solved. We define a simplified approximate distribution q with its variational parameters θ that shall be as similar as possible to the underlying true distribution p that cannot be calculated. This is realised by minimising the Kullback-Leibler (KL) divergence between p and q, which is an optimization problem. We approximate the underlying true distribution p with an approximate distribution q whose shape is represented by parameters θ that can be learnt, and second sample from that q while seeing data.
+
+Local Reparameterization Trick
+
+Let us once again remember that we want to implement the above procedure in a neural network, and therefore must calculate derivatives of the parameters being learnt, i.e. for us, derivatives of distributions. For doing so, the local reparameterisation trick is deployed which moves the parameters to be learnt, namely the mean µ and the standard deviation σ in case of a Gaussian distribution, out of the distribution function for any weight w. We define that ϵ as a sample of a standard Gaussian distribution, multiply it with the standard deviation σ and add the mean µ. Doing so, we have these two parameters of interest incorporated in every weight value and can both calculate the derivative of it and re-write it into a probability distribution.
+
 ## Citing
 
 ```
