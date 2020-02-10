@@ -73,6 +73,25 @@ Let us once again remember that we want to implement the above procedure in a ne
 
 ![](images/bbb3.png)
 
+## References
+
+1. https://towardsdatascience.com/bayesian-inference-problem-mcmc-and-variational-inference-25a8aa9bce29
+
+2. https://github.com/Joseph94m/MCMC
+
+3. https://towardsdatascience.com/intuitively-understanding-variational-autoencoders-1bfe67eb5daf
+
+4. https://github.com/ChengBinJin/VAE-Tensorflow
+
+5. https://jaan.io/what-is-variational-autoencoder-vae-tutorial/
+
+6. https://arxiv.org/abs/1505.05424
+
+7. http://krasserm.github.io/2019/03/14/bayesian-neural-networks/
+
+8. https://medium.com/neuralspace/bayesian-convolutional-neural-networks-with-bayes-by-backprop-c84dcaaf086e
+
+
 ## Citing
 
 ```
