@@ -1,5 +1,5 @@
 # Bayesian Deep Learning
-A collection of papers reproduced on Bayesian deep learning
+A collection of papers reproduced on Bayesian deep learning like MCMC, VAE, Bayes by Backprop etc.
 
 ## If this repository helps you in anyway, show your love :heart: by putting a :star: on this project :v:
 
