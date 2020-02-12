@@ -97,6 +97,12 @@ Let us once again remember that we want to implement the above procedure in a ne
 
 8. https://medium.com/neuralspace/bayesian-convolutional-neural-networks-with-bayes-by-backprop-c84dcaaf086e
 
+9. https://www.cs.ubc.ca/~arnaud/andrieu_defreitas_doucet_jordan_intromontecarlomachinelearning.pdf
+
+10. https://arxiv.org/abs/1312.6114
+
+11. https://arxiv.org/abs/1505.05424
+
 
 ## Citing
 
