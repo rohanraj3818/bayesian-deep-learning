@@ -3,9 +3,9 @@ A collection of papers reproduced on Bayesian deep learning like MCMC, VAE, Baye
 
 This repository contains:
 
-Unofficial code for paper "An Introduction to MCMC for Machine Learning"
-Unofficial code for paper "Auto-Encoding Variational Bayes"
-Unofficial code for paper "Weight Uncertainty in Neural Networks"
+1. Unofficial code for paper "An Introduction to MCMC for Machine Learning"
+2. Unofficial code for paper "Auto-Encoding Variational Bayes"
+3. Unofficial code for paper "Weight Uncertainty in Neural Networks"
 
 ## If this repository helps you in anyway, show your love :heart: by putting a :star: on this project :v:
 
